@@ -72,6 +72,7 @@ public class CoverfoxPriceFilterTestNG extends Base {
 	  
 	  Assert.assertEquals(result.actualComponants, visibleComponants, "Test case has been failed.");
 	  Reporter.log("Test case has been passed...",true);
-	  
+	  Reporter.log("1st change",true);
+	  Reporter.log("2nd change",true);
   }
 }
